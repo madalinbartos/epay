@@ -8,6 +8,8 @@ This project consists of two separate .NET Core projects:
 
 2. **epay_rest_server_simulator**: Contains a standalone simulator application that sends POST and GET requests to the server to simulate interactions.
 
+## Features
+
 ## epay_rest_server
 
 ### Controller
@@ -25,16 +27,16 @@ The `CustomerService` provides functionalities for managing customer data. It in
 
 The simulator is a standalone application that sends simulated HTTP POST and GET requests to the server. It generates random customer data and sends it to the server using POST requests. After posting the data, it sends a single GET request to retrieve the list of customers from the server.
 
-## How to Run
-
-1. Start the ePay REST Server ("epay_rest_server") by running the .NET project.
-2. Ensure that the server is running on `https://localhost:7172`.
-3. Run the simulator application ("epay_rest_server_simulator"). It will send multiple POST requests to add customer data and then a single GET request to retrieve the data from the server.
-
 ## Dependencies
 
 - .NET Core Runtime
 - ASP.NET Core framework
+
+## Usage
+
+1. Start the ePay REST Server (`epay_rest_server`).
+2. Ensure that the server is running on `https://localhost:7172`.
+3. Run the simulator application (`epay_rest_server_simulator`). It will send multiple POST requests to add customer data and then a single GET request to retrieve the data from the server.
 
 ## Configuration
 

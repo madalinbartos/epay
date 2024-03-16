@@ -1,5 +1,7 @@
 # ePay Denomination Routine
 
+## Overview
+
 This project consists of a C# program which calculates possible combinations for various payout amounts from an ATM with different denomination cartridges.
 
 ## Description
@@ -12,9 +14,9 @@ The program takes in a list of payout amounts and calculates all possible combin
 - Displays combinations in a structured format
 - Supports customizable denominations and payout amounts
 
-## Requirements
+## Dependencies
 
-- .NET SDK
+- .NET Core Runtime
 
 ## Usage
 
