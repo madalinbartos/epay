@@ -1,0 +1,6 @@
+@epay_rest_server_HostAddress = http://localhost:5271
+
+GET {{epay_rest_server_HostAddress}}/customers/
+Accept: application/json
+
+###
